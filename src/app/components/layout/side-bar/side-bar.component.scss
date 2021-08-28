@@ -1,0 +1,13 @@
+@import "@/app/styles/variables";
+@import "@/app/styles/fonts";
+
+.side-bar {
+  width: $width-side-bar;
+  padding-top: 24px;
+  background-color: $color-orange;
+  position: fixed;
+  top: $height-nav-bar;
+  bottom: 0;
+  overflow-y: auto;
+  word-break: break-word;
+}

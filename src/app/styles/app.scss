@@ -1,0 +1,13 @@
+@import "variables";
+@import "fonts";
+@import "scrollbar";
+
+// ant-design global
+@import "~react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+@import "~antd/dist/antd.css";
+
+html,
+body {
+  color: $color-text-main !important;
+  @extend .font-body-17r;
+}

@@ -1,0 +1,48 @@
+$height-nav-bar: 60px;
+$width-side-bar: 264px;
+
+// Color Variables
+$color-black: #000000;
+$color-white: #ffffff;
+$color-icon: rgba(255, 255, 255, 0.5);
+$color-hover-disable: #f3f3f3;
+$color-text-main: #4a4a4a;
+$color-text-sub: #6d6e71;
+$color-brand-red: #ca161c;
+$color-brand-yellow: #fedc00;
+$color-gradient-01: linear-gradient(
+  60.29deg,
+  #f9a51a -4.93%,
+  #fbb612 18.27%,
+  #ffdd00 71.59%
+);
+$color-natural-grey-1: #bcbcbc;
+$color-natural-disable-focus: #c4c4c4;
+$color-natural-stroke: rgba(196, 196, 196, 0.3);
+$color-natural-grey-3: #f0f0f0;
+$color-semantic-success: #15c15d;
+$color-semantic-success-border: rgba(21, 193, 93, 0.2);
+$color-semantic-success-background: rgba(0, 171, 99, 0.05);
+$color-semantic-error: #ca161c;
+$color-semantic-toggle-highlight: #fbb612;
+$color-semantic-toggle-base: #ffe099;
+$color-orange: #f2994a;
+$color-box-shadow-red: rgba(202, 22, 28, 0.1);
+$color-box-shadow: rgba(0, 14, 51, 0.05);
+$color-date-between: rgba(255, 153, 0, 0.1);
+$color-panel-date-picker-shadow: rgba(0, 14, 51, 0.25);
+$color-panel-date-picker-background-color: #f2f4fb;
+$color-text-date-disable-date-picker: rgba(0, 23, 84, 0.15);
+$color-gradient-disable-focus: linear-gradient(0deg, #f2f4fb, #f2f4fb), #f0f0f0;
+$color-tag-text-violet: #2f80ed;
+$color-tag-border-violet: rgba(47, 128, 237, 0.2);
+$color-tag-backgroud-violet: rgba(47, 128, 237, 0.05);
+$color-tag-text-orange: #f9a51a;
+$color-tag-border-orange: rgba(249, 165, 26, 0.2);
+$color-tag-backgroud-orange: rgba(249, 165, 26, 0.05);
+$color-box-shadow-white: rgba(0, 10, 78, 0.25);
+$color-side-bar-selected: linear-gradient(0deg, #f2f4fb, #f2f4fb), #ffffff;
+$color-transparent: rgba(255, 255, 255, 0);
+$color-bg-noti: rgba(255, 255, 255, 0.7);
+$color-focus-date-picker: #f2994a;
+$color-border-date-picker: rgba(202, 22, 28, 0.1);

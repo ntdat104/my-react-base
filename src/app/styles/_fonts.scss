@@ -1,0 +1,156 @@
+/* Start of KoHo Family */
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: KoHo;
+  src: url("/app/assets/fonts/KoHo/KoHo-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* End of KoHo Family */
+
+@mixin font-base(
+  $size,
+  $weight: normal,
+  $line-height: 162%,
+  $family: KoHo,
+  $style: normal
+) {
+  font-family: $family;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+}
+
+.font-caption-subtitle {
+  @include font-base(13px, $line-height: 100%);
+}
+.font-body-11sm {
+  @include font-base(11px, 600);
+}
+.font-body-13r {
+  @include font-base(13px);
+}
+
+.font-body-15r {
+  @include font-base(15px);
+}
+
+.font-body-15sm {
+  @include font-base(15px, 600);
+}
+
+.font-body-17r {
+  @include font-base(17px);
+}
+
+.font-body-17sm {
+  @include font-base(17px, 600);
+}
+
+.font-body-25sm {
+  @include font-base(25px, 600);
+}
+
+.font-body-17b {
+  @include font-base(17px, bold);
+}
+
+.font-title-19r {
+  @include font-base(19px, $line-height: 100%);
+}
+
+.font-title-19b {
+  @include font-base(19px, bold, 120%);
+}
+
+.font-title-20b {
+  @include font-base(20px, bold);
+}
+
+.font-title-22r {
+  @include font-base(22px);
+}
+
+.font-title-25b {
+  @include font-base(25px, 600, 120%);
+}
+
+.font-large-title-29b {
+  @include font-base(29px, bold);
+}
+
+.font-large-title-49md {
+  @include font-base(49px, medium, 120%);
+}

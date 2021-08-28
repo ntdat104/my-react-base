@@ -1,0 +1,19 @@
+@import "@/app/styles/variables";
+
+.layout {
+  min-height: 100vh;
+  background-color: $color-white;
+
+  .content-wrapper {
+    padding-top: $height-nav-bar;
+
+    .side-bar-wrapper {
+      display: flex;
+    }
+
+    .content-box {
+      min-height: calc(100vh - #{$height-nav-bar});
+      margin-left: $width-side-bar;
+    }
+  }
+}
